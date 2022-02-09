@@ -1,5 +1,6 @@
-mod my_house;
+pub mod my_house;
 
+#[cfg(test)]
 use my_house::roof::my_tiles::repel_rain;
 
 #[test]
